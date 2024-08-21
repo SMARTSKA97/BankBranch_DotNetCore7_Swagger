@@ -10,8 +10,8 @@
 
 ## Database
 To make sure Database gets created, use migration in PostgreSQL password = `root` Username = `postgres`.<br> 
-Check with the file `appsettings.json`
-Commands
+Check with the file `appsettings.json`<br>
+Commands<br>
 `dotnet ef migrations add InitialCreate`<br>
 `dotnet ef database update`<br>
 This will create database in postgreSQL
